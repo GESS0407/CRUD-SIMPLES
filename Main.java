@@ -35,8 +35,6 @@ public class Main {
 
                     if (service.cadastrarCliente(cliente)) {
                         System.out.println("Cliente cadastrado com sucesso!");
-                    } else {
-                        System.out.println("CPF já cadastrado!");
                     }
                     break;
 
